@@ -17,6 +17,7 @@ valid_options = ["rock", "paper", "scissors"]
 if player_choice not in valid_options:
     print("Sorry, please come back and try again")
     exit ()
+#removed else:continue  
 #computer choice
 valid_options = ["rock", "paper", "scissors"]
 computer_choice = random.choice(valid_options)
@@ -25,13 +26,13 @@ print("Computer chose:", computer_choice)
 #Determine the winner
 winner = {'scissors':'rock', 'rock':'paper', 'paper':'scissors'} 
 if player_choice == computer_choice:
-    print("TIE")
+    print("Tie!")
 elif player_choice == winner[computer_choice]:
     print ("Amazing, you won!")
 elif computer_choice == winner[player_choice]:
     print("Computer wins :( ")
 
-print("Thank you for playing! See you soon!)")
+print("Thank you for playing! See you soon!")
 
 
 
