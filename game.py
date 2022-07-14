@@ -4,6 +4,20 @@ import random
 
 #
 # todo: write some Python code here to satisfy the exercise objectives
+def determine_winner(player_choice, computer_choice):
+    champions = {'rock:'scissors', 'paper':'rock', 'scissors':'paper'}
+    ##Determines the winning choice between two valid choices from selectable options: "rock", "paper", or "scissors".
+    lossers = champions[player_choice]
+    if player_choice == computer_choice:
+        Print(' ')
+    elif player_choice in champions:
+        print(f"{player_choice}")
+    elif player_choice in lossers:
+        print(f"{computer_choice}")
+
+    ##Example: determine_winner("rock", "paper")
+    
+
 # ... https://github.com/prof-rossetti/intro-to-python/blob/main/exercises/rock-paper-scissors/README.md
 #USER INPUTS
 print("Welcome Player One to Rock, Paper, Scissors, Shoot!")
