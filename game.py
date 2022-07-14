@@ -9,7 +9,7 @@ def determine_winner(player_choice, computer_choice):
     ##Determines the winning choice between two valid choices from selectable options: "rock", "paper", or "scissors".
     lossers = champions[player_choice]
     if player_choice == computer_choice:
-        print('Tie!')
+        print(None)
     elif player_choice in champions:
         print(f"{player_choice}")
     elif player_choice in lossers:
