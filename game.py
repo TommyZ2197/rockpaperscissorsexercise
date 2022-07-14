@@ -17,7 +17,6 @@ valid_options = ["rock", "paper", "scissors"]
 if player_choice not in valid_options:
     print("Sorry, please come back and try again")
     exit ()
-else: continue 
 #computer choice
 valid_options = ["rock", "paper", "scissors"]
 computer_choice = random.choice(valid_options)
