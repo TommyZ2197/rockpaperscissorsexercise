@@ -17,14 +17,14 @@ valid_options = ["rock", "paper", "scissors"]
 if player_choice not in valid_options:
     print("Sorry, please come back and try again")
     exit ()
-else continue 
+else: continue 
 #computer choice
 valid_options = ["rock", "paper", "scissors"]
 computer_choice = random.choice(valid_options)
 print("Computer chose:", computer_choice)
 
 #Determine the winner
-winner: {'rock:scissors', 'paper:rock', 'scissors:paper'} 
+winner = {'scissors':'rock', 'rock':'paper', 'paper':'scissors'} 
 if player_choice == computer_choice:
     print("TIE")
 elif player_choice == winner[computer_choice]:
