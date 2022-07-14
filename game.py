@@ -1,4 +1,4 @@
-
+#this is the "game.py" file
 import random
 
 
@@ -6,7 +6,7 @@ import random
 # todo: write some Python code here to satisfy the exercise objectives
 # ... https://github.com/prof-rossetti/intro-to-python/blob/main/exercises/rock-paper-scissors/README.md
 #USER INPUTS
-print("Welcome Player One to Rock Paper Scissors")
+print("Welcome Player One to Rock, Paper, Scissors, Shoot!")
 player_choice = input("Please make a selection ('Rock', 'Paper', 'Scissors'):")
 player_choice = player_choice.lower()
 
@@ -14,7 +14,7 @@ print(f"You chose:, '{player_choice}' ")
 
 #Validate user inputs
 valid_options = ["rock", "paper", "scissors"]
-if player_choice not in valid_options
+if player_choice not in valid_options:
     print("Sorry, please come back and try again")
     exit ()
 else continue 
@@ -25,11 +25,11 @@ print("Computer chose:", computer_choice)
 
 #Determine the winner
 winner: {'rock:scissors', 'paper:rock', 'scissors:paper'} 
-if player_choice == computer_choice
+if player_choice == computer_choice:
     print("TIE")
-elif player_choice == winner[computer_choice]
+elif player_choice == winner[computer_choice]:
     print ("Amazing, you won!")
-elif computer_choice == winner[player_choice]
+elif computer_choice == winner[player_choice]:
     print("Computer wins :( ")
 
 print("Thank you for playing! See you soon!)")
