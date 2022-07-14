@@ -5,7 +5,7 @@ import random
 #
 # todo: write some Python code here to satisfy the exercise objectives
 def determine_winner(player_choice, computer_choice):
-    champions = {'rock:'scissors', 'paper':'rock', 'scissors':'paper'}
+    champions = {'rock':'scissors', 'paper':'rock', 'scissors':'paper'}
     ##Determines the winning choice between two valid choices from selectable options: "rock", "paper", or "scissors".
     lossers = champions[player_choice]
     if player_choice == computer_choice:
