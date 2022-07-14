@@ -6,7 +6,7 @@
 # ... https://github.com/prof-rossetti/intro-to-python/blob/main/exercises/rock-paper-scissors/testing_challenges.md
 #
 
-from game.py import determine_winner
+from game import determine_winner
 
 
 def test_determination_of_the_winner():

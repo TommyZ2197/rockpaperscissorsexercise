@@ -1,6 +1,6 @@
 #this is the "game.py" file
 import random
-
+import game
 
 #
 # todo: write some Python code here to satisfy the exercise objectives
